@@ -1,0 +1,17 @@
+# Chrome Extension
+*.crx
+*.pem
+*.zip
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+

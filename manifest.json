@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Parivahan Utilities",
+  "version": "1.0.0",
+  "description": "Smart filtering and sorting tools for Parivahan fancy number search - Filter HR26 numbers and sort by price",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://fancy.parivahan.gov.in/fancy/faces/app/applicanthome.xhtml"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
+
