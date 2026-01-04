@@ -8,7 +8,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://fancy.parivahan.gov.in/fancy/faces/app/applicanthome.xhtml"],
+      "matches": ["*://*.parivahan.gov.in/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
